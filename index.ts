@@ -1,4 +1,4 @@
-import Library from "./library.js";
+import Library from "./library";
 
 /** Function to test the Library Management System */
 function main() {

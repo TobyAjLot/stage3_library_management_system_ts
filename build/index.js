@@ -3,11 +3,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const library_js_1 = __importDefault(require("./library.js"));
+const library_1 = __importDefault(require("./library"));
 /** Function to test the Library Management System */
 function main() {
     // Usage example
-    const library = new library_js_1.default();
+    const library = new library_1.default();
     // Adding a new user
     const newUser = library.addUser({ name: "Tobi" });
     console.log(newUser);

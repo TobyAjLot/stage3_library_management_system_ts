@@ -3,14 +3,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const user_js_1 = __importDefault(require("./user.js"));
-const book_js_1 = __importDefault(require("./book.js"));
+const user_1 = __importDefault(require("./user"));
+const book_1 = __importDefault(require("./book"));
 /** Class representing a library */
 class Library {
     /** Initialize a library */
     constructor() {
-        this.user = new user_js_1.default();
-        this.book = new book_js_1.default();
+        this.user = new user_1.default();
+        this.book = new book_1.default();
     }
     /**
      * Adds a new book to the library.

@@ -1,5 +1,5 @@
-import User from "./user.js";
-import Book from "./book.js";
+import User from "./user";
+import Book from "./book";
 
 interface NewBook {
   title: string;
